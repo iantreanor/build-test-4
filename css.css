@@ -1,0 +1,199 @@
+header {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+	font-size: 200%;
+}
+
+ul {    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #4CAF50;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-size: 100%;
+    display: block;
+    color: blue;
+    background-color: yellow;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+
+div.mainCont {
+	border-left: 1px solid gray;
+    padding: 1em;
+	padding:10;
+	font-size:100%;
+	border: 1px solid gray;
+}
+
+h1 {
+    display: block;
+    font-size: 60%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 100%;
+	color: blue;
+	background-color: yellow;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 120%;
+	color: blue;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+div.beersCont {
+	margin-left: 2%;
+	font-size:100%
+}
+div.festCont {
+	margin-left: 2%;
+	font-size:100%
+}
+div.brewCont {
+	margin-left: 2%;
+	font-size:100%
+}
+div.contCont {
+	margin-left: 2%;
+	font-size:100%
+}
+
+footer {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+div.envelope{
+width: 100%;
+}
+
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:97%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+
+}
+input[type=submit]
+{
+margin-bottom: 20px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #4CAF50;
+color: aliceblue;
+cursor:pointer;
+}
+#submit:hover
+{
+background-color: black;
+}
+textarea{
+width:97%;
+padding: 15px;
+margin-top: 10px;
+border:1px solid #7ac9b7;
+border-radius:5px;
+margin-bottom: 20px;
+resize:none;
+}
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
+input[type=password]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:97%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+
+}
+div.wrapper {	
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+	

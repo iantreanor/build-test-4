@@ -1,0 +1,65 @@
+
+body {
+margin:0;
+padding:5;
+font-family: arial;
+}
+div#envelope{
+width: 70%;
+margin: 10px 10% 0px 10%;
+padding:10px 0;
+border: 2px solid gray;
+border-radius:10px;
+}
+form{
+width:85%;
+margin:0% 5%;
+}
+header{
+background-color: #4180C5;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 5px;
+margin-top: 11px;
+margin-bottom: 8px;
+border-radius: 5px 5px 0 0;
+color: aliceblue;
+}
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+input[type=submit]
+{
+margin-bottom: 20px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #4180C5;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+#submit:hover
+{
+background-color: black;
+}
+textarea{
+width:100%;
+padding: 15px;
+margin-top: 10px;
+border:1px solid #7ac9b7;
+border-radius:5px;
+margin-bottom: 20px;
+resize:none;
+}
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
