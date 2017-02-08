@@ -27,6 +27,3 @@
 	<access origin="*"/>
 
 </widget>
-
-<platform name="ios">
-  <icon src="beer_mug.png" width="180" height="180" />
