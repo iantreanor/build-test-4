@@ -73,10 +73,22 @@ h3 {
     margin-right: 0;
     font-weight: bold;
 }
+h4 {
+	display: block;
+    font-size: 100%;
+	color: blue;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 0;
+    font-weight: bold;
+	text-align: right;
+}
 
 div.beersCont {
 	margin-left: 2%;
 	font-size:100%
+	
 }
 div.festCont {
 	margin-left: 2%;
@@ -194,6 +206,6 @@ div.wrapper {
 	  border-top-left-radius: 0;
 	  border-top-right-radius: 0;
 	}
-}
+
 
 	
